@@ -1,22 +1,16 @@
-* {
-  padding: 0;
-  margin: 0px;
-  width: 1600px;
-  /* height: 3229px; */
-}
+
 body {
   font-family: "Work Sans", sans-serif;
 }
 /* header section styles */
 .header-container {
   background-image: url("images/banner/banner1.png");
-  width: 1600px;
-  height: 808px;
+
+  background-repeat: no-repeat;
 }
 
 .header-right-topics {
   padding-top: 215px;
-  padding-right: 364px;
   width: 525px;
 }
 .header-title {
@@ -54,7 +48,7 @@ body {
   justify-content: space-between;
   margin-top: 200px;
 }
-.failure-img {
+.failure-img-container {
   width: 530px;
   height: 530px;
   border-radius: 265px;
@@ -96,11 +90,18 @@ body {
   font-weight: 400;
   line-height: 26px;
 }
-
+/* my plans section styles */
 .my-plans-container {
-    display: flex;
-    justify-content: space-between;
     width: 500px;
+    margin-top: 100px;
+}
+.my-plans {
+    display: flex;
+    justify-content: space-around;        
+    padding-left: 200px;
+}
+.my-plans-title {
+    text-align: center;
 }
 
 .my-plans-img {
