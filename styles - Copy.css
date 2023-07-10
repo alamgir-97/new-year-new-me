@@ -1,30 +1,19 @@
-body {
+/* body {
   font-family: "Work Sans", sans-serif;
-  padding: 0;
-  margin: 0;
 }
 /* header section styles */
 .header-container {
-  width: 1600px;
-  height: 808px;
   background-image: url("images/banner/banner1.png");
+
   background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  top: 0px;
-  display: flex;  
-  align-items: center;
 }
 
- .header-content {
-  width: 525px;  
-  position: absolute;
-  right: 230px; 
-  
-  ; 
-} */
+.header-right-topics {
+  padding-top: 215px;
+  width: 525px;
+}
 .header-title {
-  color: #030202;
+  color: #151414;
   text-align: right;
   font-size: 65px;
   font-weight: 700;
@@ -143,8 +132,8 @@ body {
   position: relative;
   top: 30px;
   left: 30px;
-}
-/* *{width: 1600px;}
+} */
+*{width: 1600px;}
 header {
     height: 808px;
     background-color: red;
@@ -157,4 +146,4 @@ main {
 footer {
     height: 577px;
     background-color:  yellow;
-} */
+}
